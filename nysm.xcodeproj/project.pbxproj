@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7CDF85113B15DBA00144891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDF85013B15DBA00144891 /* UIKit.framework */; };
+		F7CDF85313B15DBA00144891 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDF85213B15DBA00144891 /* Foundation.framework */; };
+		F7CDF85513B15DBA00144891 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDF85413B15DBA00144891 /* CoreGraphics.framework */; };
+		F7CDF85B13B15DBA00144891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7CDF85913B15DBA00144891 /* InfoPlist.strings */; };
+		F7CDF85E13B15DBB00144891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CDF85D13B15DBB00144891 /* main.m */; };
+		F7CDF86113B15DBB00144891 /* nysmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CDF86013B15DBB00144891 /* nysmAppDelegate.m */; };
+		F7CDF86413B15DBB00144891 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CDF86213B15DBB00144891 /* MainWindow.xib */; };
+		F7CDF86713B15DBB00144891 /* nysmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CDF86613B15DBB00144891 /* nysmViewController.m */; };
+		F7CDF86A13B15DBB00144891 /* nysmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CDF86813B15DBB00144891 /* nysmViewController.xib */; };
+		F7CDF87113B15DBC00144891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDF85013B15DBA00144891 /* UIKit.framework */; };
+		F7CDF87213B15DBC00144891 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDF85213B15DBA00144891 /* Foundation.framework */; };
+		F7CDF87313B15DBC00144891 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDF85413B15DBA00144891 /* CoreGraphics.framework */; };
+		F7CDF87B13B15DBC00144891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7CDF87913B15DBC00144891 /* InfoPlist.strings */; };
+		F7CDF87E13B15DBC00144891 /* nysmTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F7CDF87D13B15DBC00144891 /* nysmTests.h */; };
+		F7CDF88013B15DBC00144891 /* nysmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CDF87F13B15DBC00144891 /* nysmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7CDF87413B15DBC00144891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7CDF84313B15DBA00144891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CDF84B13B15DBA00144891;
+			remoteInfo = nysm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7CDF84C13B15DBA00144891 /* nysm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nysm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CDF85013B15DBA00144891 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7CDF85213B15DBA00144891 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7CDF85413B15DBA00144891 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7CDF85813B15DBA00144891 /* nysm-Info.plist */ = {isa = PBXFileReference; path = "nysm-Info.plist"; sourceTree = "<group>"; };
+		F7CDF85A13B15DBA00144891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7CDF85C13B15DBB00144891 /* nysm-Prefix.pch */ = {isa = PBXFileReference; path = "nysm-Prefix.pch"; sourceTree = "<group>"; };
+		F7CDF85D13B15DBB00144891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7CDF85F13B15DBB00144891 /* nysmAppDelegate.h */ = {isa = PBXFileReference; path = nysmAppDelegate.h; sourceTree = "<group>"; };
+		F7CDF86013B15DBB00144891 /* nysmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nysmAppDelegate.m; sourceTree = "<group>"; };
+		F7CDF86313B15DBB00144891 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F7CDF86513B15DBB00144891 /* nysmViewController.h */ = {isa = PBXFileReference; path = nysmViewController.h; sourceTree = "<group>"; };
+		F7CDF86613B15DBB00144891 /* nysmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nysmViewController.m; sourceTree = "<group>"; };
+		F7CDF86913B15DBB00144891 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/nysmViewController.xib; sourceTree = "<group>"; };
+		F7CDF87013B15DBC00144891 /* nysmTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nysmTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CDF87813B15DBC00144891 /* nysmTests-Info.plist */ = {isa = PBXFileReference; path = "nysmTests-Info.plist"; sourceTree = "<group>"; };
+		F7CDF87A13B15DBC00144891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7CDF87C13B15DBC00144891 /* nysmTests-Prefix.pch */ = {isa = PBXFileReference; path = "nysmTests-Prefix.pch"; sourceTree = "<group>"; };
+		F7CDF87D13B15DBC00144891 /* nysmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nysmTests.h; sourceTree = "<group>"; };
+		F7CDF87F13B15DBC00144891 /* nysmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nysmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7CDF84913B15DBA00144891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CDF85113B15DBA00144891 /* UIKit.framework in Frameworks */,
+				F7CDF85313B15DBA00144891 /* Foundation.framework in Frameworks */,
+				F7CDF85513B15DBA00144891 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CDF86C13B15DBC00144891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CDF87113B15DBC00144891 /* UIKit.framework in Frameworks */,
+				F7CDF87213B15DBC00144891 /* Foundation.framework in Frameworks */,
+				F7CDF87313B15DBC00144891 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7CDF84113B15DBA00144891 = {
+			isa = PBXGroup;
+			children = (
+				F7CDF85613B15DBA00144891 /* nysm */,
+				F7CDF87613B15DBC00144891 /* nysmTests */,
+				F7CDF84F13B15DBA00144891 /* Frameworks */,
+				F7CDF84D13B15DBA00144891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7CDF84D13B15DBA00144891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDF84C13B15DBA00144891 /* nysm.app */,
+				F7CDF87013B15DBC00144891 /* nysmTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7CDF84F13B15DBA00144891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDF85013B15DBA00144891 /* UIKit.framework */,
+				F7CDF85213B15DBA00144891 /* Foundation.framework */,
+				F7CDF85413B15DBA00144891 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7CDF85613B15DBA00144891 /* nysm */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDF85F13B15DBB00144891 /* nysmAppDelegate.h */,
+				F7CDF86013B15DBB00144891 /* nysmAppDelegate.m */,
+				F7CDF86213B15DBB00144891 /* MainWindow.xib */,
+				F7CDF86513B15DBB00144891 /* nysmViewController.h */,
+				F7CDF86613B15DBB00144891 /* nysmViewController.m */,
+				F7CDF86813B15DBB00144891 /* nysmViewController.xib */,
+				F7CDF85713B15DBA00144891 /* Supporting Files */,
+			);
+			path = nysm;
+			sourceTree = "<group>";
+		};
+		F7CDF85713B15DBA00144891 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDF85813B15DBA00144891 /* nysm-Info.plist */,
+				F7CDF85913B15DBA00144891 /* InfoPlist.strings */,
+				F7CDF85C13B15DBB00144891 /* nysm-Prefix.pch */,
+				F7CDF85D13B15DBB00144891 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7CDF87613B15DBC00144891 /* nysmTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDF87D13B15DBC00144891 /* nysmTests.h */,
+				F7CDF87F13B15DBC00144891 /* nysmTests.m */,
+				F7CDF87713B15DBC00144891 /* Supporting Files */,
+			);
+			path = nysmTests;
+			sourceTree = "<group>";
+		};
+		F7CDF87713B15DBC00144891 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDF87813B15DBC00144891 /* nysmTests-Info.plist */,
+				F7CDF87913B15DBC00144891 /* InfoPlist.strings */,
+				F7CDF87C13B15DBC00144891 /* nysmTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7CDF84B13B15DBA00144891 /* nysm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CDF88313B15DBC00144891 /* Build configuration list for PBXNativeTarget "nysm" */;
+			buildPhases = (
+				F7CDF84813B15DBA00144891 /* Sources */,
+				F7CDF84913B15DBA00144891 /* Frameworks */,
+				F7CDF84A13B15DBA00144891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nysm;
+			productName = nysm;
+			productReference = F7CDF84C13B15DBA00144891 /* nysm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7CDF86F13B15DBC00144891 /* nysmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CDF88613B15DBC00144891 /* Build configuration list for PBXNativeTarget "nysmTests" */;
+			buildPhases = (
+				F7CDF86B13B15DBC00144891 /* Sources */,
+				F7CDF86C13B15DBC00144891 /* Frameworks */,
+				F7CDF86D13B15DBC00144891 /* Resources */,
+				F7CDF86E13B15DBC00144891 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7CDF87513B15DBC00144891 /* PBXTargetDependency */,
+			);
+			name = nysmTests;
+			productName = nysmTests;
+			productReference = F7CDF87013B15DBC00144891 /* nysmTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7CDF84313B15DBA00144891 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F7CDF84613B15DBA00144891 /* Build configuration list for PBXProject "nysm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7CDF84113B15DBA00144891;
+			productRefGroup = F7CDF84D13B15DBA00144891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7CDF84B13B15DBA00144891 /* nysm */,
+				F7CDF86F13B15DBC00144891 /* nysmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7CDF84A13B15DBA00144891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CDF85B13B15DBA00144891 /* InfoPlist.strings in Resources */,
+				F7CDF86413B15DBB00144891 /* MainWindow.xib in Resources */,
+				F7CDF86A13B15DBB00144891 /* nysmViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CDF86D13B15DBC00144891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CDF87B13B15DBC00144891 /* InfoPlist.strings in Resources */,
+				F7CDF87E13B15DBC00144891 /* nysmTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F7CDF86E13B15DBC00144891 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7CDF84813B15DBA00144891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CDF85E13B15DBB00144891 /* main.m in Sources */,
+				F7CDF86113B15DBB00144891 /* nysmAppDelegate.m in Sources */,
+				F7CDF86713B15DBB00144891 /* nysmViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CDF86B13B15DBC00144891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CDF88013B15DBC00144891 /* nysmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7CDF87513B15DBC00144891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7CDF84B13B15DBA00144891 /* nysm */;
+			targetProxy = F7CDF87413B15DBC00144891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7CDF85913B15DBA00144891 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CDF85A13B15DBA00144891 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7CDF86213B15DBB00144891 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CDF86313B15DBB00144891 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F7CDF86813B15DBB00144891 /* nysmViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CDF86913B15DBB00144891 /* en */,
+			);
+			name = nysmViewController.xib;
+			sourceTree = "<group>";
+		};
+		F7CDF87913B15DBC00144891 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CDF87A13B15DBC00144891 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7CDF88113B15DBC00144891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F7CDF88213B15DBC00144891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		F7CDF88413B15DBC00144891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nysm/nysm-Prefix.pch";
+				INFOPLIST_FILE = "nysm/nysm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7CDF88513B15DBC00144891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nysm/nysm-Prefix.pch";
+				INFOPLIST_FILE = "nysm/nysm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F7CDF88713B15DBC00144891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nysm.app/nysm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nysmTests/nysmTests-Prefix.pch";
+				INFOPLIST_FILE = "nysmTests/nysmTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F7CDF88813B15DBC00144891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nysm.app/nysm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nysmTests/nysmTests-Prefix.pch";
+				INFOPLIST_FILE = "nysmTests/nysmTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7CDF84613B15DBA00144891 /* Build configuration list for PBXProject "nysm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CDF88113B15DBC00144891 /* Debug */,
+				F7CDF88213B15DBC00144891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CDF88313B15DBC00144891 /* Build configuration list for PBXNativeTarget "nysm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CDF88413B15DBC00144891 /* Debug */,
+				F7CDF88513B15DBC00144891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7CDF88613B15DBC00144891 /* Build configuration list for PBXNativeTarget "nysmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CDF88713B15DBC00144891 /* Debug */,
+				F7CDF88813B15DBC00144891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7CDF84313B15DBA00144891 /* Project object */;
+}
