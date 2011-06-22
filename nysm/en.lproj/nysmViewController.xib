@@ -88,11 +88,19 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">nysm</string>
+						<string key="label">nysmView</string>
 						<reference key="source" ref="841351856"/>
 						<reference key="destination" ref="919057171"/>
 					</object>
-					<int key="connectionID">9</int>
+					<int key="connectionID">16</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">view</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="766721923"/>
+					</object>
+					<int key="connectionID">17</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -163,7 +171,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">11</int>
+			<int key="maxID">17</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -172,13 +180,13 @@
 					<string key="className">nysmViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">nysm</string>
+						<string key="NS.key.0">nysmView</string>
 						<string key="NS.object.0">UIWebView</string>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">nysm</string>
+						<string key="NS.key.0">nysmView</string>
 						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">nysm</string>
+							<string key="name">nysmView</string>
 							<string key="candidateClassName">UIWebView</string>
 						</object>
 					</object>

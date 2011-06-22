@@ -9,11 +9,12 @@
 #import "nysmViewController.h"
 
 @implementation nysmViewController
-@synthesize nysm;
+@synthesize nysmView;
 
 - (void)dealloc
 {
-    [nysm release];
+    [nysmView release];
+    nysmView = nil;
     [super dealloc];
 }
 
@@ -33,7 +34,7 @@
 {
     NSURL *url = [NSURL URLWithString:@"http://www.nysm.nysed.gov"];
     NSURLRequest *requestURL = [NSURLRequest requestWithURL:url];
-    [nysm loadRequest:requestURL];
+    [nysmView loadRequest:requestURL];
     
     [super viewDidLoad];
 }
