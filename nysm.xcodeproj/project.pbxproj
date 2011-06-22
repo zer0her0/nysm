@@ -39,20 +39,20 @@
 		F7CDF85013B15DBA00144891 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F7CDF85213B15DBA00144891 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F7CDF85413B15DBA00144891 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F7CDF85813B15DBA00144891 /* nysm-Info.plist */ = {isa = PBXFileReference; path = "nysm-Info.plist"; sourceTree = "<group>"; };
+		F7CDF85813B15DBA00144891 /* nysm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nysm-Info.plist"; sourceTree = "<group>"; };
 		F7CDF85A13B15DBA00144891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F7CDF85C13B15DBB00144891 /* nysm-Prefix.pch */ = {isa = PBXFileReference; path = "nysm-Prefix.pch"; sourceTree = "<group>"; };
+		F7CDF85C13B15DBB00144891 /* nysm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nysm-Prefix.pch"; sourceTree = "<group>"; };
 		F7CDF85D13B15DBB00144891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F7CDF85F13B15DBB00144891 /* nysmAppDelegate.h */ = {isa = PBXFileReference; path = nysmAppDelegate.h; sourceTree = "<group>"; };
+		F7CDF85F13B15DBB00144891 /* nysmAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nysmAppDelegate.h; sourceTree = "<group>"; };
 		F7CDF86013B15DBB00144891 /* nysmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nysmAppDelegate.m; sourceTree = "<group>"; };
 		F7CDF86313B15DBB00144891 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F7CDF86513B15DBB00144891 /* nysmViewController.h */ = {isa = PBXFileReference; path = nysmViewController.h; sourceTree = "<group>"; };
+		F7CDF86513B15DBB00144891 /* nysmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nysmViewController.h; sourceTree = "<group>"; };
 		F7CDF86613B15DBB00144891 /* nysmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nysmViewController.m; sourceTree = "<group>"; };
 		F7CDF86913B15DBB00144891 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/nysmViewController.xib; sourceTree = "<group>"; };
 		F7CDF87013B15DBC00144891 /* nysmTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nysmTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7CDF87813B15DBC00144891 /* nysmTests-Info.plist */ = {isa = PBXFileReference; path = "nysmTests-Info.plist"; sourceTree = "<group>"; };
+		F7CDF87813B15DBC00144891 /* nysmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nysmTests-Info.plist"; sourceTree = "<group>"; };
 		F7CDF87A13B15DBC00144891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F7CDF87C13B15DBC00144891 /* nysmTests-Prefix.pch */ = {isa = PBXFileReference; path = "nysmTests-Prefix.pch"; sourceTree = "<group>"; };
+		F7CDF87C13B15DBC00144891 /* nysmTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nysmTests-Prefix.pch"; sourceTree = "<group>"; };
 		F7CDF87D13B15DBC00144891 /* nysmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nysmTests.h; sourceTree = "<group>"; };
 		F7CDF87F13B15DBC00144891 /* nysmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nysmTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */

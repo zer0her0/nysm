@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface nysmViewController : UIViewController {
-    
+@interface nysmViewController : UIViewController<UIWebViewDelegate> {
+    UIWebView *nysm;
 }
+
+@property(nonatomic, retain) IBOutlet UIWebView *nysm;
 
 @end

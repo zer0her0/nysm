@@ -9,9 +9,11 @@
 #import "nysmViewController.h"
 
 @implementation nysmViewController
+@synthesize nysm;
 
 - (void)dealloc
 {
+    [nysm release];
     [super dealloc];
 }
 
@@ -25,13 +27,17 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+    NSURL *url = [NSURL URLWithString:@"http://www.nysm.nysed.gov"];
+    NSURLRequest *requestURL = [NSURLRequest requestWithURL:url];
+    [nysm loadRequest:requestURL];
+    
     [super viewDidLoad];
 }
-*/
+
 
 - (void)viewDidUnload
 {
