@@ -32,9 +32,9 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
-    NSURL *url = [NSURL URLWithString:@"http://www.nysm.nysed.gov"];
-    NSURLRequest *requestURL = [NSURLRequest requestWithURL:url];
-    [nysmView loadRequest:requestURL];
+    //NSURL *url = [NSURL URLWithString:@"http://www.nysm.nysed.gov"];
+    //NSURLRequest *requestURL = [NSURLRequest requestWithURL:url];
+    [nysmView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"]isDirectory:NO]]];
     
     [super viewDidLoad];
 }

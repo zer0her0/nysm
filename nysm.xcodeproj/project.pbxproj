@@ -25,6 +25,7 @@
 		F7CDF87B13B15DBC00144891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7CDF87913B15DBC00144891 /* InfoPlist.strings */; };
 		F7CDF87E13B15DBC00144891 /* nysmTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F7CDF87D13B15DBC00144891 /* nysmTests.h */; };
 		F7CDF88013B15DBC00144891 /* nysmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CDF87F13B15DBC00144891 /* nysmTests.m */; };
+		F7F0352513B9071D003D8656 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F7F0352413B9071D003D8656 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F7CDF87C13B15DBC00144891 /* nysmTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nysmTests-Prefix.pch"; sourceTree = "<group>"; };
 		F7CDF87D13B15DBC00144891 /* nysmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nysmTests.h; sourceTree = "<group>"; };
 		F7CDF87F13B15DBC00144891 /* nysmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nysmTests.m; sourceTree = "<group>"; };
+		F7F0352413B9071D003D8656 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		F7CDF85613B15DBA00144891 /* nysm */ = {
 			isa = PBXGroup;
 			children = (
+				F7F0352213B90564003D8656 /* web content */,
 				F7CDF85F13B15DBB00144891 /* nysmAppDelegate.h */,
 				F7CDF86013B15DBB00144891 /* nysmAppDelegate.m */,
 				F7CDF86213B15DBB00144891 /* MainWindow.xib */,
@@ -162,6 +165,14 @@
 				F7CDF87C13B15DBC00144891 /* nysmTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7F0352213B90564003D8656 /* web content */ = {
+			isa = PBXGroup;
+			children = (
+				F7F0352413B9071D003D8656 /* index.html */,
+			);
+			name = "web content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 				F73325C713B26CF500B6097C /* Icon-72.png in Resources */,
 				F73325C813B26CF500B6097C /* Icon-Small-50.png in Resources */,
 				F73325C913B26CF500B6097C /* iTunesArtwork.png in Resources */,
+				F7F0352513B9071D003D8656 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
