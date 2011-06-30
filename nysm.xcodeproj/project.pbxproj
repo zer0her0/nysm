@@ -26,6 +26,7 @@
 		F7CDF87E13B15DBC00144891 /* nysmTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F7CDF87D13B15DBC00144891 /* nysmTests.h */; };
 		F7CDF88013B15DBC00144891 /* nysmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CDF87F13B15DBC00144891 /* nysmTests.m */; };
 		F7F0352513B9071D003D8656 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F7F0352413B9071D003D8656 /* index.html */; };
+		F7F0352713BA656A003D8656 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F7F0352613BA656A003D8656 /* video1.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F7CDF87D13B15DBC00144891 /* nysmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nysmTests.h; sourceTree = "<group>"; };
 		F7CDF87F13B15DBC00144891 /* nysmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nysmTests.m; sourceTree = "<group>"; };
 		F7F0352413B9071D003D8656 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F7F0352613BA656A003D8656 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		F7F0352213B90564003D8656 /* web content */ = {
 			isa = PBXGroup;
 			children = (
+				F7F0352613BA656A003D8656 /* video1.mp4 */,
 				F7F0352413B9071D003D8656 /* index.html */,
 			);
 			name = "web content";
@@ -249,6 +252,7 @@
 				F73325C813B26CF500B6097C /* Icon-Small-50.png in Resources */,
 				F73325C913B26CF500B6097C /* iTunesArtwork.png in Resources */,
 				F7F0352513B9071D003D8656 /* index.html in Resources */,
+				F7F0352713BA656A003D8656 /* video1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
