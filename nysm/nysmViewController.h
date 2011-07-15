@@ -10,8 +10,15 @@
 
 @interface nysmViewController : UIViewController {
     UIWebView *nysmView;
+    
+    IBOutlet UILabel *nysmCounterLabel;
+    IBOutlet UIImageView *nsymImage;
 }
 
 @property(nonatomic, retain) IBOutlet UIWebView *nysmView;
+
+//@property(nonatomic, retain) UILabel *nysmCounterLabel;
+
+//@property(nonatomic, retain) UIImageView *nysmImage;
 
 @end

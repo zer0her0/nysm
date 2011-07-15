@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<!--<meta http-equiv="REFRESH" content="0;url=http://www.nysm.nysed.gov">-->
+        <!--<meta http-equiv="REFRESH" content="0;url=onevid.html">-->
             <title>!!!NYSM BOXES!!!</title>
             <style type="text/css" media="screen, projection"> 
                 /*<!--*/
@@ -14,6 +15,10 @@
                 h2 {
                     padding:.2em 0 0 0;
                     font-size:1.4em;
+                    color:white;
+                    position:absolute;
+                    vertical-align:bottom;
+                    z-index:2;
                 }
                 h3 {
                     padding:1em 0 0 0;
@@ -25,27 +30,40 @@
                 ul li {
                     margin-left:2em;
                 }
+                video{
+                    position:relative;
+                }
                 #header {
                     padding:10px 20px;
                     background:#000;
                     color:#fff;
                 }
-                #wrapper {
+                #wrapperleft {
                     clear:left;
                     float:left;
-                    width:100%;
+                    width:512px;
                     background:#444444;
-                    padding-bottom:20px;
                 }
-                #box1wrap {
+                .boxwrap {
                     float:left;
-                    width:240px;
-                    margin-top:20px;
+                    padding:0px;
+                    width:512px;
+                    height:768
                 }
-                #box1 {
-                    float:right;
-                    width:220px;
-                    height:220px;
+                .boxlarge {
+                    float:left;
+                    padding:0px;
+                    border: 1px solid white;
+                    width:510px;
+                    height:510px;
+                    background:#fff;
+                }
+                .boxsmall {
+                    float:left;
+                    padding:0px;
+                    border: 1px solid white;
+                    width:254px;
+                    height:254px;
                     background:#fff;
                 }
                 /*#box1pad {
@@ -104,18 +122,69 @@
 	<body>
         <div id="header"> 
             <h1>VIDEO BOXES!!!111oneoneoneeleven!!</h1> 
-            <p><em>An alternative to the standard 'fixed width' or 'liquid layout' designs</em></p> 
+            <p><em>We have boxes...and video at some point...</em></p> 
         </div>
-        <div id="wrapper"> 
-            <div id="box1wrap"> 
-                <div id="box1"> 
-                    <div id="box1pad"> 
-                        <h2>220 x 220 pixels</h2> 
-                        <p><video src="video1.mp4" width="220">This video</video></p>
-                    </div> 
-                </div> 
+        <div class="wrapper"> 
+            <div class="boxwrap"> 
+                <div class="boxlarge"> 
+                    <h2>512px box</h2> 
+                    <p><video src="video1.mp4" width="510" height="510">This video</video></p>
+                </div>
+                <div class="boxsmall">
+                    <h2>256px box</h2>
+                    <p><video src="video1.mp4" width="254" height="254">This video</video></p>
+                </div>
+                <div class="boxsmall">
+                    <h2>256px box</h2>
+                    <p><video src="video1.mp4" width="254" height="254">This video</video></p>
+                </div>
             </div>
-            <div id="box1wrap"> 
+        <div class="wrapper"> 
+            <div class="boxwrap"> 
+                <div class="boxsmall">
+                    <h2>256px box</h2>
+                    <p><video src="video1.mp4" width="254" height="254">This video</video></p>
+                </div>
+                <div class="boxsmall">
+                    <h2>256px box</h2>
+                    <p><video src="video1.mp4" width="254" height="254">This video</video></p>
+                </div>
+                <div class="boxlarge"> 
+                    <h2>512px box</h2> 
+                    <p><video src="video1.mp4" width="510" height="510">This video</video></p>
+                </div>
+            </div>
+            <div class="wrapper"> 
+                <div class="boxwrap"> 
+                    <div class="boxlarge"> 
+                        <h2>512px box</h2> 
+                        <p><video src="video1.mp4" width="510" height="510">This video</video></p>
+                    </div>
+                    <div class="boxsmall">
+                        <h2>256px box</h2>
+                        <p><video src="video1.mp4" width="254" height="254">This video</video></p>
+                    </div>
+                    <div class="boxsmall">
+                        <h2>256px box</h2>
+                        <p><video src="video1.mp4" width="254" height="254">This video</video></p>
+                    </div>
+                </div>
+                <div class="wrapper"> 
+                    <div class="boxwrap"> 
+                        <div class="boxsmall">
+                            <h2>256px box</h2>
+                            <p><video src="video1.mp4" width="254" height="254">This video</video></p>
+                        </div>
+                        <div class="boxsmall">
+                            <h2>256px box</h2>
+                            <p><video src="video1.mp4" width="254" height="254">This video</video></p>
+                        </div>
+                        <div class="boxlarge"> 
+                            <h2>512px box</h2> 
+                            <p><video src="video1.mp4" width="510" height="510">This video</video></p>
+                        </div>
+                    </div>
+            <!--<div id="box1wrap"> 
                 <div id="box1"> 
                     <div id="box1pad"> 
                         <h2>220 x 220 pixels</h2> 
@@ -146,7 +215,7 @@
         </div>
         <div id="footer"> 
             <p>Footer</a>.</p> 
-        </div> 
+        </div>-->
         
 	</body>
 </html>

@@ -10,6 +10,7 @@
 		F73325C713B26CF500B6097C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F73325C413B26CF500B6097C /* Icon-72.png */; };
 		F73325C813B26CF500B6097C /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F73325C513B26CF500B6097C /* Icon-Small-50.png */; };
 		F73325C913B26CF500B6097C /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = F73325C613B26CF500B6097C /* iTunesArtwork.png */; };
+		F79647EB13CF7F0100EDD478 /* onevid.html in Resources */ = {isa = PBXBuildFile; fileRef = F79647EA13CF7F0100EDD478 /* onevid.html */; };
 		F7CDF85113B15DBA00144891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDF85013B15DBA00144891 /* UIKit.framework */; };
 		F7CDF85313B15DBA00144891 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDF85213B15DBA00144891 /* Foundation.framework */; };
 		F7CDF85513B15DBA00144891 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDF85413B15DBA00144891 /* CoreGraphics.framework */; };
@@ -43,6 +44,7 @@
 		F73325C413B26CF500B6097C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		F73325C513B26CF500B6097C /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		F73325C613B26CF500B6097C /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		F79647EA13CF7F0100EDD478 /* onevid.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = onevid.html; sourceTree = "<group>"; };
 		F7CDF84C13B15DBA00144891 /* nysm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nysm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CDF85013B15DBA00144891 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F7CDF85213B15DBA00144891 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -174,6 +176,7 @@
 			children = (
 				F7F0352613BA656A003D8656 /* video1.mp4 */,
 				F7F0352413B9071D003D8656 /* index.html */,
+				F79647EA13CF7F0100EDD478 /* onevid.html */,
 			);
 			name = "web content";
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				F73325C913B26CF500B6097C /* iTunesArtwork.png in Resources */,
 				F7F0352513B9071D003D8656 /* index.html in Resources */,
 				F7F0352713BA656A003D8656 /* video1.mp4 in Resources */,
+				F79647EB13CF7F0100EDD478 /* onevid.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
