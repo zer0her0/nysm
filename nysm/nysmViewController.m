@@ -10,6 +10,7 @@
 
 @implementation nysmViewController
 @synthesize nysmView;
+@synthesize idleTimerDisabled;
 //@synthesize nysmCounterLabel;
 //@synthesize nysmImage;
 

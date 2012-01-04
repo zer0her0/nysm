@@ -16,6 +16,7 @@
 }
 
 @property(nonatomic, retain) IBOutlet UIWebView *nysmView;
+@property(nonatomic, getter = isIdleTimerDisabled) BOOL idleTimerDisabled;
 
 //@property(nonatomic, retain) UILabel *nysmCounterLabel;
 
