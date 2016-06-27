@@ -218,13 +218,15 @@
 			name = nysmTests;
 			productName = nysmTests;
 			productReference = F7CDF87013B15DBC00144891 /* nysmTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F7CDF84313B15DBA00144891 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = F7CDF84613B15DBA00144891 /* Build configuration list for PBXProject "nysm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -394,6 +396,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nysm/nysm-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "nysm/nysm-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -407,6 +410,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nysm/nysm-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "nysm/nysm-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
@@ -426,6 +430,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nysmTests/nysmTests-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "nysmTests/nysmTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -449,6 +454,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nysmTests/nysmTests-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "nysmTests/nysmTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
